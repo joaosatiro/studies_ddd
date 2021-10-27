@@ -44,8 +44,8 @@ namespace PaymentContext.Domain.Entities
             //if (Valid)
             //    _subscriptions.Add(subscription);
             //Alternativa
-            if (hasSubscriptionActive)
-                AddNotification("Student.Subscriptions", "Você já tem uma assinatura ativa");
+            //if (hasSubscriptionActive)
+            //    AddNotification("Student.Subscriptions", "Você já tem uma assinatura ativa");
         }
     }
 }
